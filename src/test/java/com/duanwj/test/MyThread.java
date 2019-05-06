@@ -17,7 +17,7 @@ public class MyThread extends Thread {
         }
     }
 
-    public MyThread(String name) {
+    private MyThread(String name) {
         super(name);
         this.setName(name);
     }

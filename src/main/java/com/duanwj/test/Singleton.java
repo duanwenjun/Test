@@ -1,7 +1,7 @@
 package com.duanwj.test;
 
 /**
- * 单里模式
+ * 单例模式
  *
  * @author 15737
  */
