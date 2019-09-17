@@ -55,8 +55,9 @@ public class TestApplicationTests {
         map.put("2", "java");
         map.keySet().forEach(log::info);
     }
+
     @Test
-    public void test(){
-        System.out.println(3|9);
+    public void test() {
+        System.out.println(3 | 9);
     }
 }
