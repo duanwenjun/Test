@@ -1,4 +1,4 @@
-package com.duanwj.test;
+package com.duanwj.learn;
 
 /**
  * 单例模式

@@ -1,4 +1,4 @@
-package com.duanwj.test.config;
+package com.duanwj.learn.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

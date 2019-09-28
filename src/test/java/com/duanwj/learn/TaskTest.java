@@ -1,10 +1,8 @@
-package com.duanwj.test;
+package com.duanwj.learn;
 
 import org.junit.Test;
 
 import javax.annotation.Resource;
-
-import static org.junit.Assert.*;
 
 /**
  * @author duanwj

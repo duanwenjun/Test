@@ -1,6 +1,6 @@
-package com.duanwj.test;
+package com.duanwj.learn;
 
-import com.duanwj.test.config.MyConfiguration;
+import com.duanwj.learn.config.MyConfiguration;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**

@@ -1,4 +1,4 @@
-package com.duanwj.test;
+package com.duanwj.learn;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
