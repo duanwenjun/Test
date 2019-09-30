@@ -6,7 +6,6 @@ import org.junit.Test;
 
 import javax.annotation.Resource;
 import java.util.List;
-import java.util.concurrent.ExecutorService;
 
 @Slf4j
 public class ThreadPoolTaskExecutorTest extends BaseTest {
