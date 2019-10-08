@@ -24,9 +24,8 @@ public class MyRunnable implements Runnable {
         Thread t1 = new Thread(instance);
         Thread t2 = new Thread(instance1);
         t1.start();
-        t2.start();
         t1.join();
-        t2.join();
+        t2.start();
         log.info("累计后的值：{}", j);
     }
 }

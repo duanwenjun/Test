@@ -7,6 +7,11 @@ import org.junit.Test;
 import javax.annotation.Resource;
 import java.util.List;
 
+/**
+ * ExecutorService extends Executor
+ * ThreadPoolExecutor 线程池配置
+ *
+ */
 @Slf4j
 public class ThreadPoolTaskExecutorTest extends BaseTest {
     @Resource
@@ -18,8 +23,5 @@ public class ThreadPoolTaskExecutorTest extends BaseTest {
         for (Runnable runnable : list) {
             taskPoolConfig.taskExecutor().execute(runnable);
         }
-        //todo 多线程如何保证循序执行，目前处理方法 使用SingleThreadExecutor
-        //todo Executor、ExecutorService、ThreadPoolExecutor 关系
-        // todo 返回值
     }
 }
