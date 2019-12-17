@@ -35,6 +35,8 @@ public class TaskPoolConfig {
         executor.setWaitForTasksToCompleteOnShutdown(true);
         //设置线程池中任务的等待时间，如果超过这个时候还没有销毁就强制销毁，以确保应用最后能够被关闭，而不是阻塞住
         executor.setAwaitTerminationSeconds(60);
+        // 增加 TaskDecorator 属性的配置
+        executor.setTaskDecorator(new ContextDecorator());
         return executor;
     }
 }
